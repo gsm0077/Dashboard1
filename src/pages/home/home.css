@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+}
+.home .homecontainer {
+  flex: 6;
+}/*# sourceMappingURL=home.css.map */

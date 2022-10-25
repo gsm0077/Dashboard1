@@ -1,0 +1,56 @@
+.facrd{
+    width: auto;
+
+}
+.utop{
+    height:400px;
+    text-align: center;
+    position: relative;
+  top: 0;
+  left: 0;
+
+}
+.imgback{
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.mainpic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 103px;
+    border: 5px solid white;
+}
+.fname{
+    margin-top: 24px;
+    font-weight:550;
+}
+.work{
+    font-size: 10px;
+    color: gray;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .deploys,.follows{
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   align-items: center;
+
+    }   .num{
+    font-weight: 550;
+    font-size: 14px;
+   }
+   .dep{
+    font-weight: 400;
+    font-size: 10px;
+    color: gray;
+   }
+}
