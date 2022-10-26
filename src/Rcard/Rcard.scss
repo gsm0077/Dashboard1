@@ -1,56 +1,121 @@
-.facrd{
-    width: auto;
+.imgtop {
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+  border: 5px solid white;
+  position: relative;
+  top: 4rem;
+  margin-left: 35%;
+}
+.imgbackside {
+  background: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2017/04/blue/16903216-1-eng-GB/Blue_pillars.jpg");
+  width: 12rem;
+  height: 100px;
+  border-radius: 5px 5px 0 0;
+}
+.title123 {
+  margin-top: 26px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.jober {
+  color: gray;
+  font-size: 10px;
+}
+.bodycard {
+  text-align: center;
+}
+.cardtoptext {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ctt11,
+.ctt21 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.ctt12,
+.ctt22 {
+  color: gray;
+  font-size: 10px;
+}
+.featured {
+  flex: 2;
+  padding: 10px;
+  .topps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+    .titles {
+      font-size: 10px;
+      font-weight: 600;
+    }
+  }
+  .bottoms {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .featuredChart{
+       width: 60px;
+       height: 60px;
+    }
+    .amountp {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .titlep {
+      font-size: 10px;
+      color: grey;
+    }
+    .bottomlow {
+      display: flex;
+      padding: 10px;
+      .textafnum {
+        font-size: 10px;
+        color: grey;
+        width: 100px;
+      }
+      .number123 {
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        font-size: 9px;
+        background-color: #B8FFB8;
+        color: #32cd32;
+        margin-right: 10px;
+      }
+    }
+  }
 }
-.utop{
-    height:400px;
-    text-align: center;
-    position: relative;
-  top: 0;
-  left: 0;
+.lastbottom{
+    display: flex;
+    flex-direction: column;
+    .reactivity{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .contoftwo{
+        display: flex;
+        .boxleft1{
+            width: 40px;
+            height:40px;
+            margin: 10px 10px;
+            background-color: #E0E0E0;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 7px;
+            font-size: 13px;
+            font-weight: bold;            
+        }
+        .textleft1{
+          font-size: 10px;
+          color: grey;
+          padding-top: 12px;
+        }
+    }
+}
 
-}
-.imgback{
-    border-radius: 12px 12px 0 0;
-    width: 100%;
-    height: 100px;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-.mainpic{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    top: 60px;
-    left: 103px;
-    border: 5px solid white;
-}
-.fname{
-    margin-top: 24px;
-    font-weight:550;
-}
-.work{
-    font-size: 10px;
-    color: gray;
-}
-.about{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    .deploys,.follows{
-   display: grid;
-   grid-template-rows: 1fr 1fr;
-   align-items: center;
-
-    }   .num{
-    font-weight: 550;
-    font-size: 14px;
-   }
-   .dep{
-    font-weight: 400;
-    font-size: 10px;
-    color: gray;
-   }
-}
