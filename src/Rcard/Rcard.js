@@ -3,8 +3,7 @@ import "./Rcard.css";
 import Card from "react-bootstrap/Card";
 import InfoIcon from '@mui/icons-material/Info';
 import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css"
-import { grey } from "@mui/material/colors";
+import "react-circular-progressbar/dist/styles.css";
 
 
 const Rcard = () => {
