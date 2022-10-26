@@ -1,10 +1,12 @@
-.chartdown{
+.Rfragment{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.textbot{
+    font-size: 10px;
     display: flex;
-    .cdtext{
-        padding-top: 40px ;
-        height: 5px;
-        width:8rem;
-        text-align: center;
-        justify-content: center;
+    font-weight: bold;
+    .completed,.pending,.cancel{
+        padding-left: 30px;
     }
 }

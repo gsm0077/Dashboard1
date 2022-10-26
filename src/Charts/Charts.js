@@ -1,53 +1,53 @@
 import Chart from "react-apexcharts";
 import React from "react";
 import { blueGrey } from "@mui/material/colors";
-import "./Chart.css"
+import "./Chart.css";
 
 function Donutchart() {
   return (
-    <React.Fragment>
-      <div className="container-fluid mt-3 mb-3">
-        <h2>Donutchart</h2>
+    <div className="Rfragment">
+    <React.Fragment >
+      <div className="container-fluid mt-2 mb-2">
         <Chart
           type="donut"
-          width={500}
-          height={550}
-          series={[65,23,12]}
+          width={250}
+          height={200}
+          series={[65, 23, 12]}
           options={{
-              labels: ["Completed", "pending", "Cancel"],
-              colors:['#4f84e4','#f2f2f4','#e1958f'],
+            labels: ["Completed", "pending", "Cancel"],
+            colors: ["#4f84e4", "#f2f2f4", "#e1958f"],
             title: {
               text: "Order Stats",
             },
             plotOptions: {
               pie: {
-                    donut: {
-
+                donut: {
                   labels: {
-                    show: false,
+                    show: true,
                     total: {
-                      fontSize: 25,
+                      fontSize: 10,
                       color: blueGrey,
                     },
                   },
                 },
               },
-              },
-              dataLabels: {
-                  enabled:false,
-              },
-              
-                  
-
+            },
+            dataLabels: {
+              enabled: false,
+            },
+            legend: {
+              show: false,
+            },
           }}
         />
-          </div>
-          <div className="chartdown">
-              <div className="cdtext">Completed</div>
-              <div className="cdtext">Pending</div>
-              <div className="cdtext">Cancel</div>
-          </div>
-    </React.Fragment>
+        <div className="textbot">
+          <div className="completed">Completed</div>
+          <div className="pending">Pending</div>
+          <div className="cancel">Cancel</div>
+        </div>
+      </div>
+      </React.Fragment>
+    </div>
   );
 }
 

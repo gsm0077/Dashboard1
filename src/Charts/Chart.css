@@ -1,10 +1,12 @@
-.chartdown {
-  display: flex;
+.Rfragment {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.chartdown .cdtext {
-  padding-top: 40px;
-  height: 5px;
-  width: 8rem;
-  text-align: center;
-  justify-content: center;
+
+.textbot {
+  font-size: 10px;
+  display: flex;
+  font-weight: bold;
+}
+.textbot .completed, .textbot .pending, .textbot .cancel {
+  padding-left: 30px;
 }/*# sourceMappingURL=Chart.css.map */
